@@ -1,0 +1,61 @@
+---
+title: "DATA620- Project 2"
+author: "Ana Collado"
+format: html
+embed-resources: true
+fig-align: center
+toc: true
+toc-depth: 6
+toc-expand: true
+execute: 
+  warning: false
+  error: false
+editor: visual
+jupyter: python3
+---
+
+```{python}
+#| echo: true
+#| warning: false
+#| error: false
+
+import networkx as nx
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import scikit_posthocs as sp
+import seaborn as sns
+from plotly import graph_objects as go
+from networkx.drawing.nx_agraph import graphviz_layout
+from scipy.stats import stats, kruskal, spearmanr
+```
+
+::: {.callout-note appearance="minimal" icon="false"}
+Identify a large 2-node network dataset—you can start with a dataset in a
+repository. Your data should meet the criteria that it consists of ties between
+and not within two (or more) distinct groups.
+
+Reduce the size of the network using a method such as the island method
+described in chapter 4 of social network analysis.
+
+**What can you infer about each of the distinct groups?**
+:::
+
+## The Data
+
+```{python}
+#| echo: false
+2 * 2
+```
+
+## The Graph
+
+```{python}
+
+```
+
+## The Island Method
+
+```{python}
+
+```
